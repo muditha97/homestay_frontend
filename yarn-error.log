@@ -1,0 +1,67 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Muditha-PC\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\Muditha-PC\bin;C:\Program Files (x86)\Git\mingw32\bin;C:\Program Files (x86)\Git\usr\local\bin;C:\Program Files (x86)\Git\usr\bin;C:\Program Files (x86)\Git\usr\bin;C:\Program Files (x86)\Git\mingw32\bin;C:\Program Files (x86)\Git\usr\bin;C:\Users\Muditha-PC\bin;C:\Python310\Scripts;C:\Python310;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\Git\cmd;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\xampp\php;C:\composer;C:\Users\Muditha-PC\AppData\Local\Microsoft\WindowsApps;C:\Users\Muditha-PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Muditha-PC\AppData\Roaming\npm;C:\Users\Muditha-PC\AppData\Roaming\Composer\vendor\bin;C:\Program Files (x86)\Git\usr\bin\vendor_perl;C:\Program Files (x86)\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.13.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ECONNABORTED 104.16.26.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@react-native-async-storage/async-storage": "^1.16.1",
+      "@react-native-masked-view/masked-view": "^0.2.2",
+      "@react-navigation/bottom-tabs": "^5.11.8",
+      "@react-navigation/drawer": "^6.3.1",
+      "@react-navigation/native": "^5.9.3",
+      "@react-navigation/stack": "^5.14.3",
+      "axios": "^0.25.0",
+      "expo": "~40.0.0",
+      "expo-status-bar": "~1.0.3",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+      "react-native-datepicker": "^1.7.2",
+      "react-native-dotenv": "^3.3.1",
+      "react-native-form-validator": "^0.5.1",
+      "react-native-gesture-handler": "~1.8.0",
+      "react-native-image-picker": "^4.7.3",
+      "react-native-reanimated": "~1.13.0",
+      "react-native-safe-area-context": "3.1.9",
+      "react-native-screens": "~2.15.2",
+      "react-native-snap-carousel": "^3.9.1",
+      "react-native-star-rating": "^1.1.0",
+      "react-native-web": "^0.15.0",
+      "react-navigation": "^4.4.4"
+    },
+    "devDependencies": {
+      "@babel/code-frame": "^7.16.7",
+      "@babel/core": "~7.9.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
