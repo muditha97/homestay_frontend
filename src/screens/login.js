@@ -52,11 +52,11 @@ export default function Login() {
           await AsyncStorage.setItem("token", response.data.token);
           await AsyncStorage.setItem(
             "user",
-            JSON.stringify(response.data.user.id)
+            JSON.stringify(response.data.user.id),
           );
           await AsyncStorage.setItem(
             "user_type",
-            JSON.stringify(response.data.user.user_type)
+            JSON.stringify(response.data.user.user_type),
           );
           RootNavigation.navigate("main");
         } else {
