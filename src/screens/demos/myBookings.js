@@ -54,7 +54,7 @@ export default function MyBookings() {
 
     fetchData();
 
-    var utc = new Date().toJSON().slice(0, 10);
+    const utc = new Date().toJSON().slice(0, 10);
     setminDate(utc);
   }, []);
 

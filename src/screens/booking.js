@@ -142,16 +142,6 @@ function Booking({ route }) {
               icon={require("../../assets/booking/fibre.png")}
             />
           ) : null}
-
-          {/* <Facility
-            title="Pool"
-            icon={require("../../assets/booking/pool.png")}
-          />
-          <Facility
-            title="Gym"
-            icon={require("../../assets/booking/gym.png")}
-          />
-          <Facility title="TV" icon={require("../../assets/booking/tv.png")} /> */}
         </View>
 
         {userType == 2 && renderData.available > 0 ? (
